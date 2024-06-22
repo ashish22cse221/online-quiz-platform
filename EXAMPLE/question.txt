@@ -1,0 +1,22 @@
+What is the chemical symbol for oxygen?;O;O2;O3;H2O;O:The chemical symbol for oxygen is O2.
+Who wrote 'The Great Gatsby'?;F. Scott Fitzgerald;Ernest Hemingway;John Steinbeck;T.S. Eliot;F. Scott Fitzgerald:F. Scott Fitzgerald wrote 'The Great Gatsby'.
+What is the largest ocean on Earth?;Pacific Ocean;Atlantic Ocean;Indian Ocean;Arctic Ocean;Pacific Ocean:The Pacific Ocean is the largest ocean on Earth.
+Who painted 'The Starry Night'?;Vincent van Gogh;Pablo Picasso;Claude Monet;Leonardo da Vinci;Vincent van Gogh:Vincent van Gogh painted 'The Starry Night'.
+What is the chemical symbol for carbon?;C;Ca;Co;Cu;C:The chemical symbol for carbon is C.
+Which planet is known as the Blue Planet?;Earth;Mars;Venus;Neptune;Earth:Earth is known as the Blue Planet.
+Who invented the telephone?;Alexander Graham Bell;Thomas Edison;Nikola Tesla;Albert Einstein;Alexander Graham Bell:Alexander Graham Bell invented the telephone.
+What is the tallest mammal?;Giraffe;Elephant;Blue Whale;Horse;Giraffe:The giraffe is the tallest mammal.
+Who wrote '1984'?;George Orwell;F. Scott Fitzgerald;Ernest Hemingway;J.D. Salinger;George Orwell:George Orwell wrote '1984'.
+What is the chemical symbol for iron?;Fe;I;Ir;In;Fe:The chemical symbol for iron is Fe.
+Who discovered penicillin?;Alexander Fleming;Marie Curie;Louis Pasteur;Jonas Salk;Alexander Fleming:Alexander Fleming discovered penicillin.
+What is the smallest planet in our solar system?;Mercury;Mars;Venus;Earth;Mercury:Mercury is the smallest planet in our solar system.
+Who composed 'Für Elise'?;Ludwig van Beethoven;Johann Sebastian Bach;Wolfgang Amadeus Mozart;Franz Schubert;Ludwig van Beethoven:Ludwig van Beethoven composed 'Für Elise'.
+What is the chemical symbol for helium?;He;H;He2;He3;He:The chemical symbol for helium is He.
+Who wrote 'The Catcher in the Rye'?;J.D. Salinger;Ernest Hemingway;F. Scott Fitzgerald;Mark Twain;J.D. Salinger:J.D. Salinger wrote 'The Catcher in the Rye'.
+What is the largest desert in the world?;Antarctica;Sahara Desert;Arabian Desert;Gobi Desert;Antarctica:Antarctica is the largest desert in the world.
+Who painted the Sistine Chapel ceiling?;Michelangelo;Leonardo da Vinci;Raphael;Donatello;Michelangelo:Michelangelo painted the Sistine Chapel ceiling.
+What is the chemical symbol for sodium?;Na;No;N;Ni;Na:The chemical symbol for sodium is Na.
+Who wrote 'Moby-Dick'?;Herman Melville;Mark Twain;Emily Dickinson;Nathaniel Hawthorne;Herman Melville:Herman Melville wrote 'Moby-Dick'.
+What is the capital of Japan?;Tokyo;Kyoto;Osaka;Hiroshima;Tokyo:Tokyo is the capital of Japan.
+
+

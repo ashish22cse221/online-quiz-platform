@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online C Compiler</title>
+    <style>
+        #output {
+            width: 80%;
+            height: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online C Compiler</h1>
+    <form id="codeForm" method="POST" action="/">
+        <textarea id="code" name="code" rows="10" cols="50"></textarea><br>
+        <button type="submit">Run Code</button>
+    </form>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById('codeForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var code = document.getElementById('code').value;
+
+            fetch('/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'code=' + encodeURIComponent(code),
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('output').innerText = data;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>

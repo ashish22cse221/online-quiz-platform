@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Level Selection</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card h2 {
+    margin-top: 0;
+    color: #333;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .smiley {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card" >
+    <h2>Basic</h2>
+    <img src="https://emojicdn.elk.sh/😊" alt="Smiley" class="smiley">
+    <p>This level is suitable for beginners.</p>
+    <div class="button-container">
+      <button class="button" onclick="redirectToAnotherPageBASICS()">Let's Go</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Intermediate</h2>
+    <img src="https://emojicdn.elk.sh/😎" alt="Smiley" class="smiley">
+    <p>This level is for those with some experience.</p>
+    <div class="button-container">
+      <button class="button" onclick="redirectToAnotherPageINTERMEDIATE()">Let's Go</button>
+    </div>
+  </div>
+
+  <div class="card" >
+    <h2>Advanced</h2>
+    <img src="https://emojicdn.elk.sh/😈" alt="Smiley" class="smiley">
+    <p>This level is for experts all the best! </p>
+    <div class="button-container">
+      <button class="button" onclick="redirectToAnotherPageADVANCE()">Let's Go</button>
+    </div>
+  </div>
+</div>
+
+</body>
+<SCRipt>
+    function redirectToAnotherPageBASICS() {
+      window.location.href = 'cbasics.html'//another_page.html' with the path to your desired HTML file
+    }
+    function redirectToAnotherPageINTERMEDIATE() {
+      window.location.href = 'cinter.html'; // Replace 'another_page.html' with the path to your desired HTML file
+    }
+    function redirectToAnotherPageADVANCE() {
+      window.location.href = 'cadvance.html'; // Replace 'another_page.html' with the path to your desired HTML file
+    }
+</SCRipt>
+</html>

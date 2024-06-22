@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Make the body full height of the viewport */
+    animation: changeColor 20s infinite alternate;
+  }
+  @keyframes changeColor {
+    0% { background: linear-gradient(to right, #ff4d4d, #ff944d); }
+    10% { background: linear-gradient(to right, #ff944d, #ffff4d); }
+    20% { background: linear-gradient(to right, #ffff4d, #b3ff4d); }
+    30% { background: linear-gradient(to right, #b3ff4d, #4dff94); }
+    40% { background: linear-gradient(to right, #4dff94, #4dffff); }
+    50% { background: linear-gradient(to right, #4dffff, #4d4dff); }
+    60% { background: linear-gradient(to right, #4d4dff, #944dff); }
+    70% { background: linear-gradient(to right, #944dff, #ff4dff); }
+    80% { background: linear-gradient(to right, #ff4dff, #ff4d94); }
+    90% { background: linear-gradient(to right, #ff4d94, #ff4d4d); }
+    100% { background: linear-gradient(to right, #ff4d4d, #ff944d); }
+  }
+  /*style for the smily*/
+  .face {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+  }
+
+  .eye-left,
+  .eye-right {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    transition: transform 0.5s ease;
+  }
+
+  .eye-left {
+    left: 20px;
+  }
+
+  .eye-right {
+    right: 20px;
+  }
+
+  .mouth {
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 0 0 80px 80px;
+    position: absolute;
+    top: 55px;
+    left: 20px;
+  }
+  /*code for smily ends*/
+  
+  .quiz-container {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap:20PX; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+  }
+  
+  .question-container {
+    width: 100%; /* Make the question container full width */
+    text-align: center; /* Center align text */
+  }
+  
+  .question {
+    font-size: 30px; /* Increase font size */
+    margin-bottom: 30px; /* Increase bottom margin */
+  }
+  
+  .options-container {
+    width: 100%; /* Make the options container full width */
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .option {
+    background-color: #ddd;
+    padding: 15px 30px; /* Increase padding */
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 8px; /* Increase border radius */
+    transition: background-color 0.3s ease;
+    position: relative;
+    font-size: 18px; /* Increase font size */
+    animation: changeColor 20s infinite alternate;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  .option:hover {
+    background-color: #c0c0c0; /* Change color on hover */
+  }
+  
+  .option.correct:after {
+    content: "T";
+    color: #04ff00;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    opacity: 1;
+  }
+  
+  .option.wrong::after {
+    content: "X";
+    color: #ff1900;
+    opacity: 1;
+  }
+  
+  #score {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  #timer {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #user-input {
+    margin-bottom: 20px;
+  }
+  
+  #exit-btn {
+    margin-top: 20px;
+    padding: 15px 30px; /* Increase padding */
+    font-size: 20px; /* Increase font size */
+    border-radius: 8px; /* Increase border radius */
+    background-color: #ff6347; /* Change button color */
+    color: #fff; /* Change text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #exit-btn:hover {
+    background-color: #d32f2f; /* Change button color on hover */
+  }
+  
+  #leaderboard {
+    margin-top: 20px;
+    width: 100%; /* Make the leaderboard full width */
+  }
+  
+  #leaderboard-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #leaderboard-list li {
+    font-size: 18px; /* Increase font size */
+    margin-bottom: 10px; /* Add spacing between leaderboard items */
+    padding: 10px; /* Add padding to leaderboard items */
+    background-color: #f0f0f0; /* Add background color to leaderboard items */
+    border-radius: 8px; /* Add border radius to leaderboard items */
+  }
+  
+  .next-btn {
+    display: none;
+    background-color: #00ff08; /* Green */
+    color: white;
+    padding: 15px 30px; /* Adjust the padding to make it bigger */
+    font-size: 20px; /* Increase the font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Adjust margin-top to create space */
+  }
+  .textinput{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+  }
+  #start-btn{
+    height: 40px;
+    width:90px;
+    font-weight: bolder;
+    color: #000000;
+    background-color:rgb(0, 255, 255);
+    border-width: 01px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif
+  }
+  #start-btn:hover{
+    background-color: #000000;
+    color: #ddd;
+  }
+  
+  .next-btn:hover {
+    background-color: #00ff08; /* Darker green on hover */
+  }
+  

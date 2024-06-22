@@ -1,0 +1,42 @@
+ <!-- C ADVANCE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C_ADVANCE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="quiz-container">
+  <div class="question-container">
+    <h2 class="question" id="question">QUIZ X EXPLODE</h2>
+    <img src="https://emojicdn.elk.sh/😈" alt="Smiley" class="smiley" >
+    <div id="explanation" style="display: none;">
+      <h3>Correct Answer Explanation</h3>
+      <p id="explanation-text"></p>
+    </div>
+    <button class="next-btn" id="next-btn" style="display: none;">Next</button>
+  </div>
+  <div class="options-container">
+    <div class="options" id="options">
+      <!-- Options will be generated here -->
+    </div>
+    <div id="score">Score: <span id="score-value">0</span></div>
+    <div id="timer">Time Left: <span id="time-left">0</span> seconds</div>
+    <div id="user-input">
+      <input class="textinput" type="text" id="username" placeholder="Enter your name">
+      <button id="start-btn">START</button>
+    </div>
+    <div id="leaderboard">
+      <h3>Leaderboard</h3>
+      <ol id="leaderboard-list"></ol>
+    </div>
+    <button id="exit-btn" style="display: none;">Exit Quiz</button>
+  </div>
+</div>
+<script src="script-for-advance.js"></script>
+
+</body>
+
+</html>
